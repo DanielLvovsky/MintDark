@@ -1,0 +1,58 @@
+{
+    "name": "mintdark-theme",
+    "displayName": "MintDark",
+    "description": "A modern and minimalist dark theme with a mint color palette for all coders out there.",
+    "version": "0.0.1",
+    "publisher": "daniel-lvovsky",
+    "author":{
+        "name": "Daniel Lvovsky"
+    },
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "bugs": {
+        "url": "https://github.com/DanielLvovsky/MintDark"
+    },
+    "repository": {
+        "url": "https://github.com/DanielLvovsky/MintDark/issues"
+    },
+    "galleryBanner": {
+        "color": "#1D1D1D",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ], 
+    "keywords": [
+        "MintDark Theme",
+        "MintDark",
+        "Dark Theme",
+        "VS Code Theme",
+        "Modern",
+        "Dark Mode",
+        "Daniel Lvovsky",
+        "mint",
+        "green",
+        "blue",
+        "light blue",
+        "dark blue",
+        "minimalist",
+        "orange",
+        "retro",
+        "dark green",
+        "vibrant",
+        "javascript",
+        "python",
+        "css"
+    ],
+    "icon":"images/icon/logo.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "MintDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MintDark-color-theme.json"
+            }
+        ]
+    }
+}
